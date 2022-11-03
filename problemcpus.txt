@@ -1,0 +1,6 @@
+Список известных проблемных процессоров, которых нет гарантий, что игры должным образом заработают на Exagear
+Snapdragon 665
+Snapdragon 720
+Snapdragon 845
+Snapdragon 855
+Snapdragon 860

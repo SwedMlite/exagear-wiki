@@ -6,6 +6,7 @@
 body {
     background-color: #f1f1f1;
     font: normal 20px 'Roboto';
+    word-wrap: break-word;
 }
 .container {
     display:flex;
@@ -14,8 +15,7 @@ body {
 }
 .box {
     width: 600px;
-    display:flex;
-    flex-direction: column;
+    display: inline-block;
     text-shadow: 0.3px 0px 0.5px black;
     border: 5px solid transparent;
     min-width: 350px;
@@ -24,9 +24,13 @@ body {
     box-shadow: 4px 4px 14px rgba(0,0,0,0.25);
     border-radius: 3px;
     margin-bottom: 30px;
+
 }
 
 .box p {
+    color: #414141;
+}
+.box li {
     color: #414141;
 }
 
@@ -45,10 +49,22 @@ body {
     width: 50px;
     height: 50px;
 }
+.img-buttons {
+    width: 35px;
+    height: 35px;
+}
+.img-screenshot {
+    width: 350px;
+    height: 150px;
+}
+.img-screenshot2 {
+    width: 280px;
+    height: 150px;
+}
 
 @media (max-width: 768px) {
     body {
-        font-size:25px;
+        font-size:23px;
     }
     .box {
         box-sizing:border-box;
@@ -58,4 +74,7 @@ body {
         flex-basis: 10em;
 
     }
+}
+a {
+    text-decoration: none;
 }

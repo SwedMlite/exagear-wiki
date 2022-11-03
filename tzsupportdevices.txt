@@ -1,0 +1,20 @@
+Список известных процессоров поддерживающих Turnip+Zink и VirtIO-GPU
+Snapdragon 720G
+Snapdragon 730
+Snapdragon 730G
+Snapdragon 732G
+Snapdragon 765
+Snapdragon 765G
+Snapdragon 768G
+Snapdragon 778G
+Snapdragon 778G Plus
+Snapdragon 780G
+Snapdragon 845
+Snapdragon 855
+Snapdragon 855 Plus
+Snapdragon 860
+Snapdragon 865
+Snapdragon 865 Plus
+Snapdragon 870
+Snapdragon 888
+Snadragpon 888 Plus
