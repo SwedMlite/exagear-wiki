@@ -1,5 +1,6 @@
 <!doctype html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
@@ -8,36 +9,62 @@
     <link rel="stylesheet" href="style.css">
     <!-- Thanks to https://github.com/Diminatorio ! -->
 </head>
+
 <body>
     <div class="container">
         <div class="first box">
             <img src="imgs/exagear.png" alt="exagear.png" class="img-exagear">
             <h1 class="main-text-pg">Exagear</h1>
-            <p>ExaGear приложения являются эмуляторами среды Windows для Android, которые позволяет запускать разные игры и
-                приложения с ПК.На данный момент актуальным является Exagear Windows, версии RPG и Strategies устарели. В
+            <p class="red-p">ExaGear приложения являются эмуляторами среды Windows для Android, которые позволяет
+                запускать разные игры и
+                приложения с ПК.На данный момент актуальным является Exagear Windows, версии RPG и Strategies устарели.
+                В
                 настоящее время разработка прекращена, проект развивается только силами энтузиастов</p>
         </div>
         <div class="second box">
             <h1 class="main-text-pg">Первый запуск</h1>
-            <p><font color="red">Существует много кэшей от разных людей, с разными версиями <a href="https://ru.wikipedia.org/wiki/Wine" target="_blank">Wine</a>. В данной инструкции в качестве примера будет использован Wine3.0.5_Hugo_22.08.22. Однако я рекомендую следить за выпуском новых кэшей.</font></p>
+            <p class="red-p">Существует много кэшей от разных людей, с разными версиями <a
+                    href="https://ru.wikipedia.org/wiki/Wine" target="_blank">Wine</a>. В данной инструкции в качестве
+                примера будет использован Wine3.0.5_Hugo_22.08.22. Однако я рекомендую следить за выпуском новых кэшей.
+            </p>
             <ol>
-                <li><a href="https://drive.google.com/file/d/1obk6nSPkHaHrsLDvv4I33gAfQXuYqmts/view" target="_blank">Скачайте данный архив</a>, разархивируйте его.</li>
-                <li>Вы увидите 3 разных APK, ED305.apk , ED305_android11+ и ED305_sdcard.apk. У ED305.apk стандартное расположение диска D: , папка <strong>Download</strong>. В ED305_android11+.apk диск D: будет находиться <strong>Android/data/com.hugo305.benchmark/files/Download</strong>. В ED305_sdcard.apk диск D: будет находиться на SD карте в папке <strong>Download</strong>.</li>
-                <li>Скопируйте папку com.hugo305.benchmark в <strong>Android/obb</strong>. Установите нужный вам APK, запустите его.</li>
+                <li><a href="https://drive.google.com/file/d/1obk6nSPkHaHrsLDvv4I33gAfQXuYqmts/view"
+                        target="_blank">Скачайте данный архив</a>, разархивируйте его.</li>
+                <li>Вы увидите 3 разных APK, ED305.apk , ED305_android11+ и ED305_sdcard.apk. У ED305.apk стандартное
+                    расположение диска D: , папка <strong>Download</strong>. В ED305_android11+.apk диск D: будет
+                    находиться <strong>Android/data/com.hugo305.benchmark/files/Download</strong>. В ED305_sdcard.apk
+                    диск D: будет находиться на SD карте в папке <strong>Download</strong>.</li>
+                <li>Скопируйте папку com.hugo305.benchmark в <strong>Android/obb</strong>. Установите нужный вам APK,
+                    запустите его.</li>
             </ol>
         </div>
         <div class="second box">
             <h1 class="main-text-pg">Настройка</h1>
-            <p><font color="red">Существуют несолько типов рендера: <strong>Turnip+Zink</strong> - лучшая скорость, редкие графические баги. GPU только Adreno 6xx (поддерживаются не все). <strong>VirGL Overlay</strong> - хорошая скорость, частые графические баги. Необходим OpenGL ES 3.2.</font></p>
+            <p class="red-p">Существуют несолько типов рендера: <strong>Turnip+Zink</strong> - лучшая скорость, редкие
+                графические баги. GPU только Adreno 6xx (поддерживаются не все). <strong>VirGL Overlay</strong> -
+                хорошая скорость, частые графические баги. Необходим OpenGL ES 3.2.</p>
             <ol>
-                <li>Зайдите в Exagear и создайте новый контейнер.Для этого нажмите на <img src="imgs/menu.png" alt="menu" class="img-buttons"> , после этого нажмите на <img src="imgs/archive.png" alt="archive" class="img-buttons"> <font color="black">Управление контейнерами</font>. Затем нажмите на <img src="imgs/add.png" alt="add" class="img-buttons"> и контейнер создан. Что бы поменять упрвление или разрешение экрана нажмите на <img src="imgs/dots.png" alt="dots" class="img-buttons"> возле контейнера. Перейдите к ярлыкам. Нажмите на <img src="imgs/menu.png" alt="menu" class="img-buttons"> а потом на <img src="imgs/desktop.png" alt="desktop" class="img-buttons"><font color="black">Рабочий стол</font>.</li>
-                <p>Если у вас поддерживается Turnip+Zink пропустите 2 этап. <a href="tzsupportdevices.txt" target="_blank">Список поддерживаемых устройств, спасибо MishkaKolos</a>.</p>
-                <li>Выставьте все галочки как на скриншоте.<img src="imgs/screenshot1.jpg" alt="screenshot1" class="img-screenshot"> <br> Для работы <strong>VirGL Overlay</strong> нажмите кнопку Clean services а затем Start services (данное действие нужно будет повторять при каждом новом заходе в приложение).</li>
+                <li>Зайдите в Exagear и создайте новый контейнер.Для этого нажмите на <img src="imgs/menu.png"
+                        alt="menu" class="img-buttons"> , после этого нажмите на <img src="imgs/archive.png"
+                        alt="archive" class="img-buttons"> <span>Управление контейнерами</span>. Затем нажмите на <img
+                        src="imgs/add.png" alt="add" class="img-buttons"> и контейнер создан. Что бы поменять упрвление
+                    или разрешение экрана нажмите на <img src="imgs/dots.png" alt="dots" class="img-buttons"> возле
+                    контейнера. Перейдите к ярлыкам. Нажмите на <img src="imgs/menu.png" alt="menu" class="img-buttons">
+                    а потом на <img src="imgs/desktop.png" alt="desktop" class="img-buttons"><span>Рабочий стол</span>.
+                </li>
+                <p>Если у вас поддерживается Turnip+Zink пропустите 2 этап. <a href="txt/tzsupportdevices.txt"
+                        target="_blank">Список поддерживаемых устройств, спасибо MishkaKolos</a>.</p>
+                <li>Выставьте все галочки как на скриншоте.<img src="imgs/screenshot1.jpg" alt="screenshot1"
+                        class="img-screenshot"> <br> Для работы <strong>VirGL Overlay</strong> нажмите кнопку Clean
+                    services а затем Start services (данное действие нужно будет повторять при каждом новом заходе в
+                    приложение).</li>
                 <li>Нажмите на ярлык TFM (VTEST_WIN=1).</li>
-                <li>Для некоторых устройств с <a href="problemcpus.txt">проблеными процессорами (спасибо MishkaKolos) </a>нужно поставить csmt 0 для устранения зависаний в играх.</li>
+                <li>Для некоторых устройств с <a href="txt/problemcpus.txt">проблеными процессорами (спасибо MishkaKolos)
+                    </a>нужно поставить csmt 0 для устранения зависаний в играх.</li>
                 <img src="imgs/guide2.png" alt="guide2" class="img-screenshot2">
             </ol>
         </div>
     </div>
 </body>
+
 </html>
